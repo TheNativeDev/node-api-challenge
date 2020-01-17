@@ -25,10 +25,10 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `firstName-lastName` Branch into master on **your fork, don't make Pull Requests against Lambda's repository**.
-- [ ] Please don't merge your own pull request.
-- [ ] Add your _Team Lead_ as a Reviewer on the Pull-request
-- [ ] Your _Team Lead_ will count the challenge as done by merging the branch into _master_.
+- [ x] Submit a Pull-Request to merge `firstName-lastName` Branch into master on **your fork, don't make Pull Requests against Lambda's repository**.
+- [ x] Please don't merge your own pull request.
+- [ x] Add your _Team Lead_ as a Reviewer on the Pull-request
+- [ x] Your _Team Lead_ will count the challenge as done by merging the branch into _master_.
 
 ## Commits
 
@@ -38,15 +38,25 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [ x] Mention two parts of Express that you learned about this week.
 
-- [ ] Describe Middleware?
+Middleware and Express Router
 
-- [ ] Describe a Resource?
+- [ x] Describe Middleware?
 
-- [ ] What can the API return to help clients know if a request was successful?
+Handles authentication and logging. It is used to check code for certain things, without needing CRUD operations.
 
-- [ ] How can we partition our application into sub-applications?
+- [ x] Describe a Resource?
+
+A piece of software that is accessible by computers, network etc
+
+- [ x] What can the API return to help clients know if a request was successful?
+
+200 which is a standard OK request.
+
+- [ x] How can we partition our application into sub-applications?
+
+Routers, to break up code into different parts so that if another developer needs to access the app they can understand it. 
 
 ## Minimum Viable Product
 
