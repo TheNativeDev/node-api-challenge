@@ -32,7 +32,7 @@ router.post('/:id', validateProjectId, (req, res) =>{
 
     if(description, notes){
         Actions.insert({project_id:id, ...req.body}).then(action =>{
-            res.status(201).json(action);
+            res.status(201).json(action); 
         }).catch(error =>{
             console.log(error);
             res.status(500).json({error: "An error occurred while attempting to add action to the database."});
