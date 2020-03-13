@@ -4,8 +4,9 @@ const projectsRouter = require('./api/routers/projectsRouter');
 const actionsRouter = require('./api/routers/actionsRouter');
 
 const server = express();
+
 server.use(helmet('dev'));
-server.use(express.json());
+server.use(express.json()); 
 
 server.use('/api/projects', projectsRouter);
 server.use('/api/actions', actionsRouter);
