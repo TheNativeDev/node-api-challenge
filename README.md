@@ -16,7 +16,7 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
-- [ x] Create a forked copy of this project.
+- [x] Create a forked copy of this project.
 - [ x] Add your _Team Lead_ as collaborator on Github.
 - [ x] Clone your forked version of the Repository.
 - [ x] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
