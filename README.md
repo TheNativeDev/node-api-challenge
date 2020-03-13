@@ -6,7 +6,7 @@ In this challenge, you design and create a web API to manage the following resou
 
 ## Instructions
 
-**Read these instructions carefully**. Understand exactly what is expected **_before_** starting to code.
+**Read these instructions carefully**. Understand exactly what is expected **_before_** starting to code..
 
 This is an individual assessment, please work on it alone. It is an opportunity to demonstrate proficiency of the concepts and objectives introduced and practiced in preceding days.
 
